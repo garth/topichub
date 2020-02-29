@@ -1,27 +1,51 @@
-# Topic Hub
+# Topic Hub - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
+## Start
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+yarn start
+```
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+yarn build
+```
 
-## Running unit tests
+## Build output
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+yarn build
+yarn run v1.22.0
+$ ng build
+Generating ES5 bundles for differential loading...
+ES5 bundle generation complete.
 
-## Running end-to-end tests
+chunk {runtime} runtime-es2015.js, runtime-es2015.js.map (runtime) 6.16 kB [entry] [rendered]
+chunk {runtime} runtime-es5.js, runtime-es5.js.map (runtime) 6.16 kB [entry] [rendered]
+chunk {polyfills} polyfills-es2015.js, polyfills-es2015.js.map (polyfills) 275 kB [initial] [rendered]
+chunk {main} main-es2015.js, main-es2015.js.map (main) 54 kB [initial] [rendered]
+chunk {main} main-es5.js, main-es5.js.map (main) 59 kB [initial] [rendered]
+chunk {styles} styles-es2015.js, styles-es2015.js.map (styles) 6.25 MB [initial] [rendered]
+chunk {styles} styles-es5.js, styles-es5.js.map (styles) 6.25 MB [initial] [rendered]
+chunk {polyfills-es5} polyfills-es5.js, polyfills-es5.js.map (polyfills-es5) 705 kB [initial] [rendered]
+chunk {vendor} vendor-es2015.js, vendor-es2015.js.map (vendor) 3.89 MB [initial] [rendered]
+chunk {vendor} vendor-es5.js, vendor-es5.js.map (vendor) 4.18 MB [initial] [rendered]
+Date: 2020-02-29T08:17:13.022Z - Hash: 7f6848066c4f3a9ada52 - Time: 20262ms
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Done in 22.20s.
+```
 
-## Further help
+## Lines of code
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+HTML                             6              6              9            319
+TypeScript                      15             44             71            183
+CSS                              1              3              0              4
+-------------------------------------------------------------------------------
+SUM:                            22             53             80            506
+-------------------------------------------------------------------------------
+```

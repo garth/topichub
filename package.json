@@ -28,7 +28,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "nanoid": "^2.1.11",
+    "nanoid": "^3.1.31",
     "overmind": "^22.0.5",
     "overmind-angular": "^22.0.0",
     "process": "^0.11.10",
